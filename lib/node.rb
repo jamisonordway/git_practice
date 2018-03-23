@@ -16,4 +16,9 @@ class Node
     @parent = parent
   end
 
+  def get_user_email(email, password)
+    email = "User email is #{email} and user password is #{password}"
+    puts email
+  end
+
 end
